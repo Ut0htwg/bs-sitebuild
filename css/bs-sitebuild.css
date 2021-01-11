@@ -1,0 +1,72 @@
+@import url('../googlefonts/Catamaran/?family=Catamaran&display=swap');
+@import url('../googlefonts/Lato/?family=Lato&display=swap');
+@import url('../googlefonts/Mulish/?family=Mulish&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+main section {
+    margin: 0;
+    padding: 0;
+}
+
+.first-part, .sticky-top {
+    background-image: url(../img/bg-pattern.png),
+    linear-gradient(to right, #da2632 , #7d4397);
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll;
+}
+
+.navbar:hover, .nav-link:hover {
+    color: white;
+}
+
+p {
+    font-family: Mulish, Arial, Helvetica, sans-serif;
+}
+
+.new-age {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100; 
+}
+
+.btn {
+    color: white;
+    border: 1px solid white;
+    border-radius: 1rem;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+    background-color: #fdcc52;
+    border-color: #fdcc52;
+}
+
+.discover, .we-love-friends {
+    background-color: #fdc846;
+}
+
+hr {
+    color: #333333;
+    margin: 0 0 .5rem 0;
+}
+
+.stop-start {
+    background-color: black;
+    background-image: url(../img/bg-cta.jpg);
+    background-size: cover;
+    min-height: h50;
+    padding: 35% 20% 30% 25%;
+    opacity: 0.9;
+}
+
+.stop-start h1 {
+    color: white;
+}
+
