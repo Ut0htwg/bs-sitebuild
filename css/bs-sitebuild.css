@@ -26,7 +26,15 @@ main section {
     color: white;
 }
 
-p {
+h1, h4 {
+    font-family: Catamaran, Helvetica, Arial, sans-serif;
+}
+
+.navbar, .nav-link, .btn {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+p, span, footer {
     font-family: Mulish, Arial, Helvetica, sans-serif;
 }
 
@@ -36,16 +44,23 @@ p {
     font-weight: 100; 
 }
 
+nav>a.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: white;
+}
+
 .btn {
     color: white;
     border: 1px solid white;
     border-radius: 1rem;
-    font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
 .btn:hover {
     background-color: #fdcc52;
     border-color: #fdcc52;
+}
+
+.footer-nav>a:hover {
+    color: white;
 }
 
 .discover, .we-love-friends {
