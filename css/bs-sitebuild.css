@@ -85,3 +85,19 @@ hr {
     color: white;
 }
 
+.lg-only {
+    display: none;
+}
+
+.sm-only {
+    display: flex;
+}
+
+@media screen and (min-width: 992px) {
+    .lg-only {
+        display: flex;
+    }
+    .sm-only {
+        display: none;
+    }
+  }

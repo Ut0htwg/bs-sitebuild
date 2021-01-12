@@ -13,14 +13,14 @@
 
 <body">
   <header class="sticky-top bg-light">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white row pr-5">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="col-lg-2"></div>
-      <a class="navbar-brand text-warning col-lg-6 col-md-4 col-sm-2" href="#">Start Bootstrap</a>
+      <a class="navbar-brand text-warning col-lg-6 col-md-4 col-2" href="#">Start Bootstrap</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse col-lg-4 col-sm-2" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse col-lg-4 col-2" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link text-warning active " href="#discover">Download <span class="sr-only">(current)</span></a>
           <a class="nav-link text-warning" href="#features">Features</a>
@@ -36,17 +36,17 @@
           <div class="col"></div>
           <div class="col-lg-5 mr-lg-5 mb-5 mb-lg-0">
             <article>
-              <p class="new-age">
+              <p class="new-age text-center text-lg-left">
                 New age is an app landing page that will help you beautifully showcase your new mobile app, or
                 anything
                 else!
               </p>
             </article>
-            <footer>
+            <footer class="d-flex justify-content-center justify-content-lg-start"> 
               <a href="#" class="btn btn-transition my-5">Start now for free</a>
             </footer>
           </div>
-          <div class="demoscreen col-lg-5 ml-lg-5 mb-4 mb-lg-0">
+          <div class="demoscreen col-lg-5 mb-4 mb-lg-0 d-flex justify-content-center">
             <img src="img/mobilphone.png" alt="phone" class="phone w-75">
             <!-- <img src="img/phone.png" alt="phone" class="phone w-50">
             <img src="img/demo-screen-1.jpg" alt="Demoscreen" class="screen w-50"> -->
@@ -62,18 +62,37 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="text-center mb-5">Discover what all the<br> buzz is about!</h1>
-            <p><small>google-play-badge.svg</small></p>
+            <h1 class="text-center my-5">Discover what all the<br> buzz is about!</h1>
+          </div>
+          <div class="col-lg-3 col-1"></div>
+          <div class="col-lg-6 col-10">
+            <small class="lg-only">google-play-badge.svg</small>
             <p>Our app is available on any mobile device! Donload now to get started!</p>
           </div>
+          <div class="col-lg-3 col-1"></div>
         </div>
-        <div class="row">
-          <div class="col-lg-6 mb-5 mb-lg-0">
-          <a href="https://store.google.com"><img class="google w-75" src="img/google-play-badge.svg" alt="google-play-badge.svg"></a>
+        <div class="row lg-only">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-2 mb-5 mb-0 p-0">
+            <a href="https://store.google.com"><img class="google w-100" src="img/google-play-badge.svg" alt="google-play-badge.svg"></a>
           </div>
-          <div class="col-lg-6 mb-5 mb-lg-0">
-          <a href="https://www.apple.com"><img class="apple w-75" src="img/app-store-badge.svg" alt="app-store-badge.svg"></a>
+          <div class="col-lg-2 mb-5 mb-0 p-0">
+            <a href="https://www.apple.com"><img class="apple w-100" src="img/app-store-badge.svg" alt="app-store-badge.svg"></a>
           </div>
+          <div class="col-lg-4"></div>
+        </div>
+        <div class="row sm-only">
+          <div class="col-4"></div>
+          <div class="col-4 mb-5 mb-0 p-0">
+            <a href="https://store.google.com"><img class="google w-100" src="img/google-play-badge.svg" alt="google-play-badge.svg"></a>
+          </div>
+          <div class="col-4"></div>
+
+          <div class="col-4"></div>
+          <div class="col-4 mb-5 mb-0 p-0">
+            <a href="https://www.apple.com"><img class="apple w-100" src="img/app-store-badge.svg" alt="app-store-badge.svg"></a>
+          </div>
+          <div class="col-4"></div>
         </div>
       </div>
     </section>
@@ -87,7 +106,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 d-flex justify-content-center">
             <img src="img/mobilphone.png" alt="phone" class="ml-5 w-75">
           </div>
           <div class="col-lg-8">
@@ -180,6 +199,8 @@
       </div>
     </div>
   </footer>
+
+  
 
   <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
